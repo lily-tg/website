@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Lily's website</title>
+		<link href="purple.css" rel="stylesheet" type="text/css" media="all">
+
+		<script>
+        	function toggleTheme(value) {
+
+            	// Obtain the name of stylesheet 
+            	// as a parameter and set it 
+            	// using href attribute.
+            	let sheets = document
+                	.getElementsByTagName('link');
+
+            	sheets[0].href = value;
+        	}
+    	</script>
+
+	</head>
+
+	<body>
+        <div class="header">
+			<a href="#" class="title">Lily's website</a>
+			<br><span>Find my TG content here</span>
+		</div>
+		
+		<div class="container">
+						
+			<div class="columns">
+				<!-- Left column, will show first on mobile layouts -->
+				<div class="left">
+					<!-- Basic information box -->
+					<div class="box" id="intro">
+						<h1>Profile</h1><br>
+						<div class = "imagecontainer">
+							<img src="images/lily_happy.png" class="image" alt="Profile image" width="125">
+						</div>
+
+						<p>TG artist</p>
+						<p>
+							Transfem 🏳️‍⚧️
+							<br>she/her
+							<br>20 years old
+							<br>Somewhere
+							<br>
+						</p>
+						Last update: 2025-08-31 <!-- UPDATE DATE IN YEAR-MONTH-DAY -->
+					</div>
+
+					<!-- Theme selector -->
+					<div class="box" id="theme">
+						<h1>Theme selector</h1><br>
+						<div class = "theme-switcher">
+							<button onclick="toggleTheme('purple.css')" id = "purple">Royal Purple</button>
+							<button onclick="toggleTheme('green.css')" id = "green">Elegant Green</button>
+							<button onclick="toggleTheme('pink.css')" id = "pink">Vibrant Pink</button>
+							<button onclick="toggleTheme('orange.css')" id = "orange">Juicy Orange</button>
+							<button onclick="toggleTheme('black.css')" id = "black">Dark Black</button>
+						</div>
+					</div>
+
+					<!-- Contact box-->
+					<!-- If you want to change the icon before links in the custom link box, in the CSS stylesheet change the image URL under the "#contact a::before" section! -->
+					<div class="box" id="contact">
+						<h1>Find me at</h1><br>
+						<table>
+							<tr>
+								<td><a href="#">Link 1</a></td>
+								<td><a href="#">Link 2</a></td>
+							</tr>
+							<tr>
+								<td><a href="#">Link 3</a></td>
+								<td><a href="#" >Link 4</a></td>
+							</tr>
+						</table>
+					</div>
+					
+					
+					
+					<!-- I usually just put a cool Youtube video here-->
+					<div class="box" id="Music">
+						<h1>Green room</h1><br>
+						<iframe width="560" height="160" src="https://www.youtube.com/embed/7L7csHK9EjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+
+				<!-- Righj column, will show second on mobile layouts -->
+				<div class="right">	
+
+					<!-- 1st blurb box -->
+					<div class="box" id="blurbs">
+						<h1>About Lily</h1>
+						<p>My name's Lily. I write TG captions and make drawings related to TFs. This website is meant to be seen on a computer, but it should be able to look decent on mobile.</p>
+						<img class = "image" src = "https://placehold.co/400x300">
+					</div>
+
+					<!-- 2nd blurb box -->
+					<div class="box" id="blurbs2">
+						<h2>NAME's 2nd box</h2>
+						<p>Put whatever you want here! Or you can remove it. Or add another box. Go nuts.</p>
+						<p>More boxes can be added by adding more divs with the "box" class.</p>
+					</div>
+
+					<!-- 3rd blurb box -->
+					 <div class="box" id="blurbs3">
+						<h2>NAME's 3rd box</h2>
+						<p>Put whatever you want here! Or you can remove it. Or add another box. Go nuts.</p>
+						<p>More boxes can be added by adding more divs with the "box" class.</p>
+					</div>
+				</div>	
+			</div>
+		</div>
+
+		<!-- Footer, I usually put my site button or whatever here -->
+		<div class="footer center">
+			<!-- You don't have to leave the credit in, as long as you leave it in the CSS or something so other people can find it that's cool with me. -->
+			<a href="https://fear.garden">Layout by fear.garden</a>
+		</div>
+    </body>
+</html>
