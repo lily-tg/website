@@ -136,7 +136,28 @@ th {
 }
 
 
+/** Images that change between light and dark themes **/
 
+#lily-intro{
+	content: url(images/compute_light.png);
+}
+
+#deviantart{
+	content: url(images/contact_info/contact_light_deviantart.png);
+}
+#bluesky{
+	content: url(images/contact_info/contact_light_bluesky.png);
+}
+#discord{
+	content: url(images/contact_info/contact_light_discord.png);
+}
+#tgcaps{
+	content: url(images/contact_info/contact_light_tg.png);
+}
+
+#theme-selected{
+	content: url(images/themes/theme_vibrantpink.png);
+}
 
 
 /** id **/
@@ -144,10 +165,7 @@ th {
 	font-weight: bold;
 	text-decoration: none;
 }
-#contact a::before {
-	content: url('https://placehold.co/16');
-	padding: 0 1em 0 0;
-}
+
 #interests td, #details td {width: 70%;}
 #url span {font: 12px monospace;}
 
