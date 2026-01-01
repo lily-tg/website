@@ -1,0 +1,220 @@
+:root {
+  --border-radius: 0;
+}
+
+:root,
+[data-selected-theme="purple"] {
+  --color-main: #7b5faa;
+  --color-accent: #9b87be;
+  --color-background: #bbafd2;
+  --color-border: #42345d;
+  --color-text: white;
+  --color-heading: var(--color-main);
+  --theme-image: url("themeSquares/purpleRetro.png");
+}
+
+[data-selected-theme="green"] {
+  --color-main: #83bbb2;
+  --color-accent: #abd0ca;
+  --color-background: #d3e6e2;
+  --color-border: #468076;
+  --color-text: black;
+  --color-heading: var(--color-main);
+  --color-title: var(--color-text);
+  --theme-image: url("themeSquares/greenRetro.png");
+}
+
+[data-selected-theme="pink"] {
+  --color-main: #ffc0cb;
+  --color-accent: #ffdee4;
+  --color-background: #ffedf0;
+  --color-border: #ff4863;
+  --color-text: black;
+  --color-heading: var(--color-main);
+  --color-title: var(--color-text);
+  --theme-image: url("themeSquares/pinkRetro.png");
+}
+
+[data-selected-theme="orange"] {
+  --color-main: #e79c1f;
+  --color-accent: #edb457;
+  --color-background: #f3cc8f;
+  --color-border: #b57914;
+  --color-text: white;
+  --color-heading: var(--color-main);
+  --color-title: var(--color-text);
+  --theme-image: url("themeSquares/orangeRetro.png");
+}
+
+[data-selected-theme="black"] {
+  --color-main: black;
+  --color-accent: black;
+  --color-background: black;
+  --color-border: white;
+  --color-text: white;
+  --color-heading: white;
+  --color-title: black;
+  --theme-image: url("themeSquares/blackRetro.png");
+}
+
+[data-selected-theme="crimson"] {
+  --color-main: #dc143c;
+  --color-accent: #ed3f61;
+  --color-background: #f1778e;
+  --color-border: #6c0c1c;
+  --color-text: black;
+  --color-heading: var(--color-main);
+  --color-title: var(--color-text);
+  --theme-image: url("themeSquares/crimsonRetro.png");
+}
+
+[data-selected-theme="celeste"] {
+  --color-main: #87ceeb;
+  --color-accent: #bbe2f3;
+  --color-background: #eff8fc;
+  --color-border: #23a4d7;
+  --color-text: black;
+  --color-heading: var(--color-main);
+  --color-title: var(--color-text);
+  --theme-image: url("themeSquares/celesteRetro.png");
+}
+
+[data-selected-theme="choco"] {
+  --color-main: #7b3f00;
+  --color-accent: #5d2f00;
+  --color-background: #3f1f00;
+  --color-border: #b75f00;
+  --color-text: white;
+  --color-heading: var(--color-main);
+  --color-title: var(--color-text);
+  --theme-image: url("themeSquares/chocoRetro.png");
+}
+
+[data-selected-theme="white"] {
+  --color-main: white;
+  --color-accent: white;
+  --color-background: white;
+  --color-border: black;
+  --color-text: black;
+  --color-heading: black;
+  --color-title: white;
+  --theme-image: url("themeSquares/whiteRetro.png");
+}
+
+
+@font-face {
+    font-family: "Mode Seven";
+    src: url("pixelFonts/ModeSeven.ttf");
+}
+
+
+
+body{
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: "Mode Seven";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6{
+    background-color: var(--color-heading);
+    color: var(--color-title);
+    padding: 10px;
+    border-radius: var(--border-radius);
+}
+
+img{
+    border: 3px solid var(--color-border);
+    border-radius: var(--border-radius);
+}
+
+img.theme{
+  border: none;
+  width: 180px;
+    background-image: var(--theme-image);
+    background-size: 180px;
+}
+
+.mini-picture{
+    max-height: 150px;
+}
+
+.pixel{
+  max-width: min(600px, 80%);
+  border: none;
+}
+
+figure{
+    display: inline-block;
+    max-width: max-content;
+    margin: 0;
+}
+
+figcaption{
+    max-width: 150px;
+    text-align: center;
+}
+
+.horizontal{
+    display: inline-block;
+    max-width: 400px;
+}
+
+.container{
+    max-width: 800px;
+}
+
+.content {
+    text-align: center;
+    display: block;
+    background-color: var(--color-accent);
+    padding: 1.5rem 2rem;
+    border: 2px solid var(--color-border);
+    
+    border-radius: var(--border-radius);
+    max-width: 90vw;
+}
+
+.intro-image{
+    min-height: 200px;
+    max-height: 300px;
+    border: 5px solid var(--color-border);
+
+}
+
+.me{
+    max-width: 300px;
+    background-image: url("trans_square.png");
+    background-size: cover;
+}
+
+button[aria-pressed="true"] {
+  background-color: var(--color-heading);
+  color: var(--color-title);
+}
+
+a{
+    color: var(--color-text);
+}
+
+button {
+    font-family: "Mode Seven";
+    margin: 3px;
+    border: none;
+    background: transparent;
+    border-radius: var(--border-radius);
+
+    padding: 0.75rem 1.25rem;
+    font-size: inherit;
+    /*font-size: clamp(1rem, 5vw, 1.312rem);*/
+    color: var(--color-text);
+    border: 2px solid var(--color-border);
+}
+
+
+
+/* Classes for specific games. When I do pixelart of specific games, I want the font. */
+
