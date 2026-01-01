@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music area</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="scrollbar.css">
+    </head>
+    <body>
+        <div class="container">
+            <br><br>
+
+            <div class="content">
+                <h1>Music area</h1>
+
+                <p>Welcome to the music area! All the music here is linked and properly credited! To prevent connection issues, the music audio is hosted here!</p>
+                
+                <p><a href="home.html">Return home</a></p>
+            </div>
+
+            <br><br>
+
+
+            <!-- The theme selector -->
+            <div class="content">
+                <div>
+                    <h2>Select a theme</h2>
+                </div>
+
+                <div id="theme-switcher">
+                    <button data-theme="purple" aria-pressed="true">Royal Purple</button>
+                    <button data-theme="green" aria-pressed="false">Elegant Green</button>
+                    <button data-theme="pink" aria-pressed="false">Vibrant Pink</button>
+                    <button data-theme="orange" aria-pressed="false">Juicy Orange</button>
+                    <button data-theme="black" aria-pressed="false">Dark Black</button>
+                    <button data-theme="crimson" aria-pressed="false">Fire Crimson</button>
+                    <button data-theme="celeste" aria-pressed="false">Snowy Celeste</button>
+                    <button data-theme="choco" aria-pressed="false">Crunchy Choco</button>
+                    <button data-theme="white" aria-pressed="false">Blinding White</button>
+                </div>
+                <div>
+                    <br>
+                    <img class="theme" src="empty200x200.png">
+                </div>
+                <div>
+                    <p>This theme selector was possible with help from <a href="https://fossheim.io/writing/posts/accessible-theme-picker-html-css-js/">Fossheim's theme selector tutorial</a>.</p>
+                    <p>JavaScript is necessary for the theme switcher to work.</p>
+                </div>
+            </div>
+
+            <br><br>
+
+            <!-- Music, it's here! -->
+            <div class="content">
+                <!-- 16-Bit Fantasy & Adventure Music [no AI] -->
+                <h2>16-Bit Fantasy & Adventure Music [no AI]</h2>
+                <p><b>Original music by <a href="https://www.youtube.com/@xDeviruchi">Marllon Silva (xDeviruchi)</a></b></p>
+                <p>The video is here: <a href="https://youtu.be/1eE5Sem9k0Y">16-Bit Fantasy & Adventure Music [no AI]</a></p><nr></nr>
+
+                <!-- Silent Forest -->
+                <div class="audio-container">
+                    <br>
+                    <audio loop controls>
+                        <source src="music/SilentForest.wav" type="audio/wav">
+                        <source src="music/SilentForest.mp3" type="audio/mp3">
+                    Your browser does not support audio.
+                    </audio>
+                    <br><a class="music-name" href="https://youtu.be/1eE5Sem9k0Y?t=506">04 - Silent Forest</a><br>
+                </div><br>
+                
+
+                <!-- ???? -->
+                <div class="audio-container">
+                    <br>
+                    <audio loop controls>
+                        <source src="music/Shop.wav" type="audio/wav">
+                        <source src="music/Shop.mp3" type="audio/mp3">
+                    Your browser does not support audio.
+                    </audio>
+                    <br><a class="music-name" href="https://youtu.be/1eE5Sem9k0Y?t=1088">08 - Shop</a><br>
+                </div><br>
+
+
+                <!-- Lost Shrine -->
+                <div class="audio-container">
+                    <br>
+                    <audio loop controls>
+                        <source src="music/LostShrine.wav" type="audio/wav">
+                        <source src="music/LostShrine.mp3" type="audio/mp3">
+                    Your browser does not support audio.
+                    </audio>
+                    <br><a class="music-name" href="https://youtu.be/1eE5Sem9k0Y?t=1342">10 - Lost Shrine</a><br>
+                </div><br>
+
+                <!-- Frozen Abyss -->
+                <div class="audio-container">
+                    <br>
+                    <audio loop controls>
+                        <source src="music/FrozenAbyss.wav" type="audio/wav">
+                        <source src="music/FrozenAbyss.mp3" type="audio/mp3">
+                    Your browser does not support audio.
+                    </audio>
+                    <br><a class="music-name" href="https://youtu.be/1eE5Sem9k0Y?t=1672">12 - Frozen Abyss</a><br>
+                </div><br>
+
+            </div>
+            
+            <br><br>
+
+            
+        </div>
+    </body>
+
+    <script src = "script.js"></script>
+</html>
