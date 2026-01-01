@@ -10,7 +10,7 @@
   --color-border: #42345d;
   --color-text: white;
   --color-heading: var(--color-main);
-  --theme-image: url("/themeSquares/purple.png");
+  --theme-image: url("themeSquares/purple.png");
 }
 
 [data-selected-theme="green"] {
@@ -21,7 +21,7 @@
   --color-text: black;
   --color-heading: var(--color-main);
   --color-title: var(--color-text);
-  --theme-image: url("/themeSquares/green.png");
+  --theme-image: url("themeSquares/green.png");
 }
 
 [data-selected-theme="pink"] {
@@ -32,7 +32,7 @@
   --color-text: black;
   --color-heading: var(--color-main);
   --color-title: var(--color-text);
-  --theme-image: url("/themeSquares/pink.png");
+  --theme-image: url("themeSquares/pink.png");
 }
 
 [data-selected-theme="orange"] {
@@ -43,7 +43,7 @@
   --color-text: white;
   --color-heading: var(--color-main);
   --color-title: var(--color-text);
-  --theme-image: url("/themeSquares/orange.png");
+  --theme-image: url("themeSquares/orange.png");
 }
 
 [data-selected-theme="black"] {
@@ -54,7 +54,7 @@
   --color-text: white;
   --color-heading: white;
   --color-title: black;
-  --theme-image: url("/themeSquares/black.png");
+  --theme-image: url("themeSquares/black.png");
 }
 
 [data-selected-theme="crimson"] {
@@ -65,7 +65,7 @@
   --color-text: black;
   --color-heading: var(--color-main);
   --color-title: var(--color-text);
-  --theme-image: url("/themeSquares/crimson.png");
+  --theme-image: url("themeSquares/crimson.png");
 }
 
 [data-selected-theme="celeste"] {
@@ -76,7 +76,7 @@
   --color-text: black;
   --color-heading: var(--color-main);
   --color-title: var(--color-text);
-  --theme-image: url("/themeSquares/celeste.png");
+  --theme-image: url("themeSquares/celeste.png");
 }
 
 [data-selected-theme="choco"] {
@@ -87,7 +87,7 @@
   --color-text: white;
   --color-heading: var(--color-main);
   --color-title: var(--color-text);
-  --theme-image: url("/themeSquares/choco.png");
+  --theme-image: url("themeSquares/choco.png");
 }
 
 [data-selected-theme="white"] {
@@ -98,7 +98,7 @@
   --color-text: black;
   --color-heading: black;
   --color-title: white;
-  --theme-image: url("/themeSquares/white.png");
+  --theme-image: url("themeSquares/white.png");
 }
 
 @font-face {
@@ -216,4 +216,5 @@ button {
     /*font-size: clamp(1rem, 5vw, 1.312rem);*/
     color: var(--color-text);
     border: 2px solid var(--color-border);
+
 }
