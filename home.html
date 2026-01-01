@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lily's website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="scrollbar.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <br><br>
+
+            <div class="content" id="start">
+                <h1>Welcome to Lily's website</h1>
+                <img class="intro-image" src="assets/lily_at_the_beach.png">
+                <p>Welcome to Lily's personal website! Here you'll be able to find stuff I like and make.</p>
+            </div>
+
+            <br><br>
+
+            <div class="content">
+                <div>
+                    <h2>Select a theme</h2>
+                </div>
+
+                <!-- The theme selector -->
+                <div id="theme-switcher">
+                    <button data-theme="purple" aria-pressed="true">Royal Purple</button>
+                    <button data-theme="green" aria-pressed="false">Elegant Green</button>
+                    <button data-theme="pink" aria-pressed="false">Vibrant Pink</button>
+                    <button data-theme="orange" aria-pressed="false">Juicy Orange</button>
+                    <button data-theme="black" aria-pressed="false">Dark Black</button>
+                    <button data-theme="crimson" aria-pressed="false">Fire Crimson</button>
+                    <button data-theme="celeste" aria-pressed="false">Snowy Celeste</button>
+                    <button data-theme="choco" aria-pressed="false">Crunchy Choco</button>
+                    <button data-theme="white" aria-pressed="false">Blinding White</button>
+                </div>
+                <div>
+                    <br>
+                    <img class="theme" src="empty200x200.png">
+                </div>
+                <div>
+                    <p>This theme selector was possible with help from <a href="https://fossheim.io/writing/posts/accessible-theme-picker-html-css-js/">Fossheim's theme selector tutorial</a>.</p>
+                    <p>JavaScript is necessary for the theme switcher to work.</p>
+                </div>
+            </div>
+
+            <br><br>
+
+            <div class="content">
+                <div>
+                    <h2>Check my stuff!</h2>
+                </div>
+                <div>
+                    <!-- About me -->
+                    <figure>
+                        <a href="about-me.html"><img class="mini-picture" src="assets/generic.png"></a>
+                        <a href="about-me.html"><figcaption>About me</figcaption></a>
+                    </figure>
+                    
+                    <!-- Transformation area -->
+                    <figure>
+                        <img class="mini-picture" src="assets/generic.png">
+                        <figcaption class="link">TF related content</figcaption>
+                    </figure>
+
+                    <!-- Find me -->
+                    <figure>
+                        <img class="mini-picture" src="assets/generic.png">
+                        <figcaption class="link">Find me at</figcaption>
+                    </figure>
+
+                    <!-- Pixel arts -->
+                    <figure>
+                        <a href="pixel-arts.html"><img class="mini-picture" src="assets/lily_beach_pixel.png"></a>
+                        <a href="pixel-arts.html"><figcaption class="link">Pixel arts</figcaption></a>
+                    </figure>
+
+                    <!-- Pokar -->
+                    <figure>
+                        <a href="pokar.html"><img class="mini-picture" src="assets/cards.png"></a>
+                        <a href="pokar.html"><figcaption class="link">Pokar</figcaption></a>
+                    </figure>
+
+                    <!-- Music area -->
+                    <figure>
+                        <a href="music-area.html"><img class="mini-picture" src="assets/music.png"></a>
+                        <a href="music-area.html"><figcaption class="link">Music area</figcaption></a>
+                    </figure>
+
+                    <!-- Guides -->
+                    <figure>
+                        <a href="guides.html"><img class="mini-picture" src="assets/generic.png"></a>
+                        <a href="guides.html"><figcaption class="link">Guides</figcaption></a>
+                    </figure>
+
+                    <figure>
+                        <img class="mini-picture" src="assets/generic.png">
+                        <figcaption class="link">Something</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="mini-picture" src="assets/generic.png">
+                        <figcaption class="link">Something</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <br><br>
+        </div>
+        
+    </body>
+
+    <script src = "script.js"></script>
+</html>
