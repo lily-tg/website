@@ -1,0 +1,8 @@
+# Ignore the vscode folder.
+/.vscode/
+
+# Ignore the testing folder.
+/test/
+
+# Other stuff to ignore
+/my-content.html

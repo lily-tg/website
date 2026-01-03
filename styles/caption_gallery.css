@@ -1,16 +1,5 @@
 /* General styles */
 
-figure{
-    display: inline-block;
-    max-width: max-content;
-    margin: 0;
-    padding: auto;
-}
-
-figcaption{
-    max-width: 200px;
-    text-align: center;
-}
 
 .mini-picture{
     max-width: 200px;
@@ -20,10 +9,11 @@ figcaption{
     background-color: var(--color-main);
     padding: 1.5rem 2rem;
     border: 2px solid var(--color-border);
-    max-width: 300px;
-    height: 250px;
+    width: 225px;
+    
     border-radius: var(--border-radius);
     align-items: center;
+    margin: 10px;
 }
 
 /* 2022 */
@@ -54,6 +44,282 @@ figcaption{
 
 #c5{
     background-image: url("/website/assets/tf_content/A_personal_transition.png");
+    background-size: cover;
+    background-position: 40%;
+}
+
+
+/* 2023 */
+
+#c6{
+    background-image: url("/website/assets/tf_content/Games_and_TG.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#c7{
+    background-image: url("/website/assets/tf_content/The_halloween_zombie_Redone.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#c8{
+    background-image: url("/website/assets/tf_content/A_fantastic_wish.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#c9{
+    background-image: url("/website/assets/tf_content/A_robotic_future.png");
+    background-size: cover;
+    background-position: 20%;
+}
+
+#c10{
+    background-image: url("/website/assets/tf_content/A_school_restart.png");
+    background-size: cover;
+    background-position: 80%;
+}
+
+#c11{
+    background-image: url("/website/assets/tf_content/A_new_change.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#c12{
+    background-image: url("/website/assets/tf_content/A_succubus_reveal.png");
+    background-size: cover;
+    background-position: 10%;
+}
+
+#c13{
+    background-image: url("/website/assets/tf_content/TG_by_soda.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#c14{
+    background-image: url("/website/assets/tf_content/A_petrifying_party.png");
+    background-size: cover;
+    background-position: 20%;
+}
+
+#c15{
+    background-image: url("/website/assets/tf_content/Lab_Gender_Raid.png");
+    background-size: cover;
+    background-position: 50% 20%;
+}
+
+#c16{
+    background-image: url("/website/assets/tf_content/A_flowering_change.png");
+    background-size: cover;
+    background-position: 90%;
+}
+
+#c17{
+    background-image: url("/website/assets/tf_content/A_sketchy_notebook.png");
+    background-size: cover;
+    background-position: 80%;
+}
+
+#c18{
+    background-image: url("/website/assets/tf_content/A_snowy_day.png");
+    background-size: cover;
+    background-position: 10%;
+}
+
+#c19{
+    background-image: url("/website/assets/tf_content/The_ramen_buffet.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#c20{
+    background-image: url("/website/assets/tf_content/A_cute_quiz_experience.png");
+    background-size: cover;
+    background-position: 10%;
+}
+
+#c21{
+    background-image: url("/website/assets/tf_content/Getting_into_a_game.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#c22{
+    background-image: url("/website/assets/tf_content/Unexpected_quest.png");
+    background-size: cover;
+    background-position: 10%;
+}
+
+#c23{
+    background-image: url("/website/assets/tf_content/The_christmas_dress.png");
+    background-size: cover;
+    background-position: 20%;
+}
+
+
+/* 2024 */
+
+#c24{
+    background-image: url("/website/assets/tf_content/Blowing_a_new_life.png");
+    background-size: cover;
+    background-position: 90%;
+}
+
+#c25{
+    background-image: url("/website/assets/tf_content/Love_at_first_TG.png");
+    background-size: cover;
+    background-position: 70%;
+}
+
+#c26{
+    background-image: url("/website/assets/tf_content/TG_on_ice.png");
+    background-size: cover;
+    background-position: left;
+}
+
+#c27{
+    background-image: url("/website/assets/tf_content/Sleeping_mermaid.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#c28{
+    background-image: url("/website/assets/tf_content/The_magic_website.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#c29{
+    background-image: url("/website/assets/tf_content/Big_Dolly_Sister.png");
+    background-size: cover;
+    background-position: left;
+}
+
+#c30{
+    background-image: url("/website/assets/tf_content/Big_Dolly_Sister_genAlpha.png");
+    background-size: cover;
+    background-position: left;
+}
+
+#c31{
+    background-image: url("/website/assets/tf_content/The_Halloween_House.png");
+    background-size: cover;
+    background-position: 5%;
+}
+
+
+/* 2025 */
+
+#c32{
+    background-image: url("/website/assets/tf_content/Another_TG.png");
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+#d1{
+    background-image: url("/website/assets/tf_content/The_other_princess_Lily_TG.png");
+    background-size: cover;
+    background-position: 10%;
+}
+
+#d2{
+    background-image: url("/website/assets/tf_content/Gardevoir_possesion.png");
+    background-size: cover;
+    background-position: 80%;
+}
+
+#d3{
+    background-image: url("/website/assets/tf_content/Antony_to_Anette.png");
+    background-size: cover;
+    background-position: 45%;
+}
+
+#d4{
+    background-image: url("/website/assets/tf_content/Lucas_to_Sarah.png");
+    background-size: cover;
+    background-position: 80%;
+}
+
+#d5{
+    background-image: url("/website/assets/tf_content/Specimen_4_TG.png");
+    background-size: cover;
+    background-position: right;
+}
+
+#d6{
+    background-image: url("/website/assets/tf_content/Face_stealing.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#c33{
+    background-image: url("/website/assets/tf_content/A_desperate_idea.png");
+    background-size: cover;
+    background-position: 10%;
+}
+
+#d7{
+    background-image: url("/website/assets/tf_content/Lucas_gets_girlified_Tail.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#d8{
+    background-image: url("/website/assets/tf_content/Lock_gets_TGed.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#d9{
+    background-image: url("/website/assets/tf_content/Jack_gets_princessed.png");
+    background-size: cover;
+    background-position: 80%;
+}
+
+#d10{
+    background-image: url("/website/assets/tf_content/Zombgirl_TF_Decay.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#d11{
+    background-image: url("/website/assets/tf_content/Felix_clones_a_blond_girl.png");
+    background-size: cover;
+    background-position: 20%;
+}
+
+#c34{
+    background-image: url("/website/assets/tf_content/Entrepeneur_fox_TF.png");
+    background-size: cover;
+    background-position: 10%;
+}
+
+#d12{
+    background-image: url("/website/assets/tf_content/Kattubus_TG_TF_1.png");
+    background-size: cover;
+    background-position: right;
+}
+
+#d13{
+    background-image: url("/website/assets/tf_content/Rudi_gets_princessed.png");
+    background-size: cover;
+    background-position: 68%;
+}
+
+#d14{
+    background-image: url("/website/assets/tf_content/Frozen_Stella.png");
+    background-size: cover;
+    background-position: top;
+}
+
+
+/* Future */
+
+#c0{
+    background-image: url("/website/assets/tf_content/The_christmas_dress.png");
     background-size: cover;
     background-position: center;
 }
