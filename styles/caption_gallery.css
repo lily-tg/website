@@ -1,0 +1,59 @@
+/* General styles */
+
+figure{
+    display: inline-block;
+    max-width: max-content;
+    margin: 0;
+    padding: auto;
+}
+
+figcaption{
+    max-width: 200px;
+    text-align: center;
+}
+
+.mini-picture{
+    max-width: 200px;
+}
+
+.horizontal{
+    background-color: var(--color-main);
+    padding: 1.5rem 2rem;
+    border: 2px solid var(--color-border);
+    max-width: 300px;
+    height: 250px;
+    border-radius: var(--border-radius);
+    align-items: center;
+}
+
+/* 2022 */
+
+#c1{
+    background-image: url("/website/assets/tf_content/The_White_Hoodie.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#c2{
+    background-image: url("/website/assets/tf_content/Figurine_entusiasm.png");
+    background-size: cover;
+    
+}
+
+#c3{
+    background-image: url("/website/assets/tf_content/An_experimental_TG.png");
+    background-size: cover;
+    background-position: 70%;
+}
+
+#c4{
+    background-image: url("/website/assets/tf_content/The_halloween_zombie_Original.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#c5{
+    background-image: url("/website/assets/tf_content/A_personal_transition.png");
+    background-size: cover;
+    background-position: center;
+}

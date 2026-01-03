@@ -1,0 +1,220 @@
+:root {
+  --border-radius: 20px;
+}
+
+:root,
+[data-selected-theme="purple"] {
+  --color-main: #7b5faa;
+  --color-accent: #9b87be;
+  --color-background: #bbafd2;
+  --color-border: #42345d;
+  --color-text: white;
+  --color-heading: var(--color-main);
+  --theme-image: url("/website/themeSquares/purple.png");
+}
+
+[data-selected-theme="green"] {
+  --color-main: #83bbb2;
+  --color-accent: #abd0ca;
+  --color-background: #d3e6e2;
+  --color-border: #468076;
+  --color-text: black;
+  --color-heading: var(--color-main);
+  --color-title: var(--color-text);
+  --theme-image: url("/website/themeSquares/green.png");
+}
+
+[data-selected-theme="pink"] {
+  --color-main: #ffc0cb;
+  --color-accent: #ffdee4;
+  --color-background: #ffedf0;
+  --color-border: #ff4863;
+  --color-text: black;
+  --color-heading: var(--color-main);
+  --color-title: var(--color-text);
+  --theme-image: url("/website/themeSquares/pink.png");
+}
+
+[data-selected-theme="orange"] {
+  --color-main: #e79c1f;
+  --color-accent: #edb457;
+  --color-background: #f3cc8f;
+  --color-border: #b57914;
+  --color-text: white;
+  --color-heading: var(--color-main);
+  --color-title: var(--color-text);
+  --theme-image: url("/website/themeSquares/orange.png");
+}
+
+[data-selected-theme="black"] {
+  --color-main: black;
+  --color-accent: black;
+  --color-background: black;
+  --color-border: white;
+  --color-text: white;
+  --color-heading: white;
+  --color-title: black;
+  --theme-image: url("/website/themeSquares/black.png");
+}
+
+[data-selected-theme="crimson"] {
+  --color-main: #dc143c;
+  --color-accent: #ed3f61;
+  --color-background: #f1778e;
+  --color-border: #6c0c1c;
+  --color-text: black;
+  --color-heading: var(--color-main);
+  --color-title: var(--color-text);
+  --theme-image: url("/website/themeSquares/crimson.png");
+}
+
+[data-selected-theme="celeste"] {
+  --color-main: #87ceeb;
+  --color-accent: #bbe2f3;
+  --color-background: #eff8fc;
+  --color-border: #23a4d7;
+  --color-text: black;
+  --color-heading: var(--color-main);
+  --color-title: var(--color-text);
+  --theme-image: url("/website/themeSquares/celeste.png");
+}
+
+[data-selected-theme="choco"] {
+  --color-main: #7b3f00;
+  --color-accent: #5d2f00;
+  --color-background: #3f1f00;
+  --color-border: #b75f00;
+  --color-text: white;
+  --color-heading: var(--color-main);
+  --color-title: var(--color-text);
+  --theme-image: url("/website/themeSquares/choco.png");
+}
+
+[data-selected-theme="white"] {
+  --color-main: white;
+  --color-accent: white;
+  --color-background: white;
+  --color-border: black;
+  --color-text: black;
+  --color-heading: black;
+  --color-title: white;
+  --theme-image: url("/website/themeSquares/white.png");
+}
+
+@font-face {
+	font-family: "London Tube";
+	src: url("/website/LondonTube.ttf");
+}
+
+@font-face {
+    font-family: "Architect 4";
+    src: url("/website/Architect4.woff2");
+}
+
+body{
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: "Architect 4";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6{
+    background-color: var(--color-heading);
+    color: var(--color-title);
+    padding: 10px;
+    border-radius: var(--border-radius);
+}
+
+img{
+    border: 3px solid var(--color-border);
+    border-radius: var(--border-radius);
+}
+
+img.theme{
+    background-image: var(--theme-image);
+    background-size: 200px;
+}
+
+.mini-picture{
+    max-height: 150px;
+}
+
+figure{
+    display: inline-block;
+}
+
+figcaption{
+    max-width: 150px;
+    text-decoration-line: underline;
+}
+
+.horizontal{
+    display: inline-block;
+    max-width: 400px;
+}
+
+.container{
+    max-width: 800px;
+}
+
+.audio-container{
+  background-color: var(--color-heading);
+  border: 2px solid var(--color-border);
+  border-radius: var(--border-radius);
+  max-width: min(400px, 80%);
+  margin: auto; 
+}
+
+.music-name{
+  color: var(--color-title);
+}
+
+.content {
+    text-align: center;
+    display: block;
+    background-color: var(--color-accent);
+    padding: 1.5rem 2rem;
+    border: 2px solid var(--color-border);
+    
+    border-radius: var(--border-radius);
+    max-width: 90vw;
+}
+
+.intro-image{
+    min-height: 200px;
+    max-height: 300px;
+}
+
+.me{
+    max-width: 300px;
+    background-image: url("/website/trans_square.png");
+    background-size: cover;
+    padding: 10px;
+}
+
+button[aria-pressed="true"] {
+  background-color: var(--color-heading);
+  color: var(--color-title);
+}
+
+a{
+    color: var(--color-text);
+}
+
+button {
+    font-family: "Architect 4";
+    margin: 3px;
+    border: none;
+    background: transparent;
+    border-radius: var(--border-radius);
+
+    padding: 0.75rem 1.25rem;
+    font-size: inherit;
+    /*font-size: clamp(1rem, 5vw, 1.312rem);*/
+    color: var(--color-text);
+    border: 2px solid var(--color-border);
+
+}

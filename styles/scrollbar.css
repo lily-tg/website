@@ -1,0 +1,84 @@
+:root,
+[data-selected-theme="purple"] {
+  --color-scrollbar-main: #7b5faa;
+  --color-scrollbar-border: #42345d;
+  --color-scrollbar-inside: #9b87be;
+  --color-scrollbar-inner-border: #7b5faa;
+}
+
+[data-selected-theme="green"] {
+  --color-scrollbar-main: #83bbb2;
+  --color-scrollbar-border: #468076;
+  --color-scrollbar-inside: #abd0ca;
+  --color-scrollbar-inner-border: #83bbb2;
+}
+
+[data-selected-theme="pink"] {
+  --color-scrollbar-main: #ffc0cb;
+  --color-scrollbar-border: #ff4863;
+  --color-scrollbar-inside: #ffdee4;
+  --color-scrollbar-inner-border: #ffc0cb;
+}
+
+[data-selected-theme="orange"] {
+  --color-scrollbar-main: #e79c1f;
+  --color-scrollbar-border: #b57914;
+  --color-scrollbar-inside: #edb457;
+  --color-scrollbar-inner-border: #e79c1f;
+}
+
+[data-selected-theme="black"] {
+  --color-scrollbar-main:  black;
+  --color-scrollbar-border: white;
+  --color-scrollbar-inside: white;
+  --color-scrollbar-inner-border: white;
+}
+
+[data-selected-theme="crimson"] {
+  --color-scrollbar-main: #dc143c;
+  --color-scrollbar-border: #6c0c1c;
+  --color-scrollbar-inside: #ed3f61;
+  --color-scrollbar-inner-border: #dc143c;
+}
+
+[data-selected-theme="celeste"] {
+  --color-scrollbar-main: #87ceeb;
+  --color-scrollbar-border: #23a4d7;
+  --color-scrollbar-inside: #bbe2f3;
+  --color-scrollbar-inner-border: #87ceeb;
+}
+
+[data-selected-theme="choco"] {
+  --color-scrollbar-main: #7b3f00;
+  --color-scrollbar-border: #b75f00;
+  --color-scrollbar-inside: #5d2f00;
+  --color-scrollbar-inner-border: #7b3f00;
+}
+
+[data-selected-theme="white"] {
+  --color-scrollbar-main: white;
+  --color-scrollbar-border: black;
+  --color-scrollbar-inside: black;
+  --color-scrollbar-inner-border: black;
+}
+
+/* Scrollbar width and height */
+::-webkit-scrollbar{
+    width: 20px;
+    height: 20px;
+}
+
+/* This is the part that indicates total lenght of the page. */
+::-webkit-scrollbar-track{
+    background: var(--color-scrollbar-inside);
+    border: .25em solid var(--color-scrollbar-inner-border);
+    border-radius: var(--border-radius);
+    margin-block: .5em;
+}
+
+/* This is the part that tells you in which part of the page you're in. */
+::-webkit-scrollbar-thumb{
+    background: var(--color-scrollbar-main);
+    border: .25em solid var(--color-scrollbar-border);
+    border-radius: var(--border-radius);
+}
