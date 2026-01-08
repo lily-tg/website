@@ -40,9 +40,9 @@
   --color-accent: #edb457;
   --color-background: #f3cc8f;
   --color-border: #b57914;
-  --color-text: white;
+  --color-text: black;
   --color-heading: var(--color-main);
-  --color-title: var(--color-text);
+  --color-title: white;
   --theme-image: url("/website/themeSquares/orangeRetro.png");
 }
 

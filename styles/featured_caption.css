@@ -1,0 +1,16 @@
+.caption{
+    border: none;
+    border-radius: 0;
+    max-width: min(700px, 80%);
+}
+
+.text-holder {
+    text-align: center;
+    display: block;
+    background-color: var(--color-accent);
+    padding: 1.5rem 2rem;
+    border: 2px solid var(--color-border);
+    
+    border-radius: var(--border-radius);
+    max-width: 90vw;
+}
