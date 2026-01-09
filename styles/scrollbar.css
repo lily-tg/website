@@ -62,6 +62,13 @@
   --color-scrollbar-inner-border: black;
 }
 
+[data-selected-theme="lily"] {
+  --color-scrollbar-main: #764abf;
+  --color-scrollbar-border: #e7e7ec;
+  --color-scrollbar-inside: #7c5faa;
+  --color-scrollbar-inner-border: #e7e7ec;
+}
+
 /* Scrollbar width and height */
 ::-webkit-scrollbar{
     width: 20px;
