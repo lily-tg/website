@@ -204,6 +204,18 @@
     background-position: left;
 }
 
+#d0{
+    background-image: url("/website/assets/tf_content/Ellie_TG_sequence.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#cX{
+    background-image: url("/website/assets/tf_content/Ellie_TG.png");
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
 #c31{
     background-image: url("/website/assets/tf_content/The_Halloween_House.png");
     background-size: cover;

@@ -1,0 +1,6 @@
+.picture{
+    
+    border-radius: 0;
+    max-width: min(700px, 80%);
+}
+
