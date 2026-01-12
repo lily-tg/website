@@ -14,3 +14,17 @@
     border-radius: var(--border-radius);
     max-width: 90vw;
 }
+
+.mini-picture{
+    background-image: url("/website/assets/profiles/anonymous.png");
+    background-size: cover;
+}
+
+.horizontal{
+    padding: 1.5rem 2rem;
+    width: 225px;
+    border-radius: var(--border-radius);
+    align-items: center;
+    margin: 10px;
+    margin-top: -20px;
+}
