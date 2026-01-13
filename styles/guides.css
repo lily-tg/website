@@ -101,6 +101,17 @@
   --theme-image: url("/website/themeSquares/white.png");
 }
 
+[data-selected-theme="lily"] {
+  --color-main: #fff5b0;
+  --color-accent: #7c5faa;
+  --color-background: #764abf;
+  --color-border: #e7e7ec;
+  --color-text: black;
+  --color-heading: var(--color-main);
+  --color-title: black;
+  --theme-image: url("/website/themeSquares/lily.png");
+}
+
 @font-face {
 	font-family: "London Tube";
 	src: url("/website/LondonTube.ttf");
