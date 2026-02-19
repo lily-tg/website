@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Card CYOA</title>
+        <link rel="stylesheet" href="../../styles/style.css">
+        <link rel="stylesheet" href="../../styles/scrollbar.css">
+        <link rel="stylesheet" href="../../styles/hide-theme-select.css">
+        <link rel="stylesheet" href="../../styles/card_gallery.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <br><br>
+
+
+
+            <div class="content" id="start">
+                <h1>Card CYOA</h1>
+
+                <p>Welcome! This CYOA was conceptualized by <a href="https://www.deviantart.com/drtrifire">Drtrifire</a> and the cards were drawn by me. Hope you enjoy this!</p>
+
+                
+            </div>
+
+
+            <br><br>
+
+            <!-- The theme selector -->
+            <div class="content" id="theme-switcher">
+                <div>
+                    <h2>Select a theme</h2>
+                </div>
+
+                <!-- Theme options -->
+                <div id="theme-switcher">
+                    <button data-theme="purple" aria-pressed="true">Royal Purple</button>
+                    <button data-theme="green" aria-pressed="false">Elegant Green</button>
+                    <button data-theme="pink" aria-pressed="false">Vibrant Pink</button>
+                    <button data-theme="orange" aria-pressed="false">Juicy Orange</button>
+                    <button data-theme="black" aria-pressed="false">Dark Black</button>
+                    <button data-theme="crimson" aria-pressed="false">Fire Crimson</button>
+                    <button data-theme="celeste" aria-pressed="false">Snowy Celeste</button>
+                    <button data-theme="choco" aria-pressed="false">Crunchy Choco</button>
+                    <button data-theme="white" aria-pressed="false">Blinding White</button>
+                    <button data-theme="lily" aria-pressed="false">Lily's special</button>
+                </div>
+
+                <!-- The theme picture appears here -->
+                <div>
+                    <br>
+                    <img class="theme" src="/website/empty200x200.png">
+                </div>
+
+                <!-- Theme selector credits -->
+                <div>
+                    <p>This theme selector was possible with help from <a href="https://fossheim.io/writing/posts/accessible-theme-picker-html-css-js/">Fossheim's theme selector tutorial</a>.</p>
+                    <p>JavaScript is necessary for the theme switcher to work.</p>
+                </div>
+            </div>
+
+            <!-- Previously chosen cards -->
+            <div class="content">
+                <div>
+                    <h2>Previously chosen cards</h2>
+                </div>
+
+                <!-- Cards shown -->
+                <div class="horizontal">
+                    <img src="../../assets/card_cyoa/boy.png" style="border: none; border-radius: 0; height: 300px;">
+                    
+                </div>
+
+                <div class="horizontal">
+                    <img src="../../assets/card_cyoa/short_hair.png" style="border: none; border-radius: 0; height: 300px;">
+                    
+                </div>
+
+                <div class="horizontal">
+                    <img src="../../assets/card_cyoa/brown_hair.png" style="border: none; border-radius: 0; height: 300px;">
+                    
+                </div>
+
+            </div>
+            <br><br>
+            
+
+            <!-- CYOAs -->
+            <div class="content">
+                <div>
+                    <h2>Continue</h2>
+                </div>
+
+                <!-- Options to choose from -->
+                <div class="horizontal">
+                    <a href="1-1-1-1.html"><img src="../../assets/card_cyoa/pocket_pal.png" style="border: none; border-radius: 0; height: 300px;"></a><br>
+                    <a href="1-1-1-1.html">Pocket pal</a>
+                </div>
+
+            </div>
+
+            <br><br>
+
+            <!-- Going back -->
+            <div class="content">
+                <div class="horizontal">
+                    <a href="index.html"><img class="mini-picture" src="../../assets/card_cyoa/go_to_start.png" style="border: none;"></a><br>
+                    <a href="index.html">Go to start</a>
+                </div>
+
+                <div class="horizontal">
+                    <img src="../../empty200x200.png" style="border: none; width: 150px;">
+                </div>
+
+                <div class="horizontal">
+                    <a href="1-1.html"><img class="mini-picture" src="../../assets/card_cyoa/step_back.png" style="border: none;"></a><br>
+                    <a href="1-1.html">Step back</a>
+                </div>
+            </div>
+
+            
+            <br><br>
+        </div>
+        
+    </body>
+
+    <script src = "/website/script.js"></script>
+</html>
