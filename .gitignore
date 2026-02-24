@@ -7,8 +7,6 @@
 # Some testing needs to be done before optimizing the theme selector.
 /components
 
-# The card CYOA is not finished yet.
-/website/cyoa/cards
 
 # Other stuff to ignore
 /my-content.html
