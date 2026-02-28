@@ -1,0 +1,25 @@
+/* The div tha contains the entirety of the character template.*/
+.credits{
+    display: flex;
+    background-color: var(--color-main);
+    border: 2px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: 1.5rem 2rem;
+    margin: auto;
+}
+
+/* The picture to show the profile */
+.person{
+    max-width: 100px;
+    margin: 10px;
+}
+
+/* Text area */
+.textArea{
+    text-align: left;
+}
+
+/* Profile name */
+.name{
+    font-size: larger;
+}

@@ -1,0 +1,28 @@
+/* The div tha contains the entirety of the character template.*/
+.character-container{
+    display: flex;
+    background-color: var(--color-main);
+    border: 2px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: 1.5rem 2rem;
+    margin: auto;
+}
+
+/* The picture to show the character */
+.character{
+    max-width: 150px;
+    margin: 10px;
+}
+
+/* Text area */
+.textArea{
+    text-align: left;
+}
+
+/* Character name */
+.character-name{
+    font-size: larger;
+}
+.character-pronouns{
+    font-size: smaller;
+}
