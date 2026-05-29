@@ -347,6 +347,18 @@
     background-position: center;
 }
 
+#d19{
+    background-image: url("/website/assets/tf_content/Muffet_TF.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#c36{
+    background-image: url("/website/assets/tf_content/Fresh_Tomato_Day_TG.png");
+    background-size: cover;
+    background-position: 95%;
+}
+
 /* Future */
 
 #c0{
