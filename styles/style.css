@@ -12,6 +12,11 @@
   --color-heading: var(--color-main);
   --color-title: var(--color-text);
   --theme-image: url("/website/themeSquares/purple.png");
+
+  /* Custom cursors */
+  --cursor-normal: url("/website/assets/cursors/purple_normal.png");
+  --cursor-link: url("/website/assets/cursors/purple_link.png");
+  --cursor-push: url("/website/assets/cursors/purple_push.png");
 }
 
 [data-selected-theme="green"] {
@@ -23,6 +28,11 @@
   --color-heading: var(--color-main);
   --color-title: var(--color-text);
   --theme-image: url("/website/themeSquares/green.png");
+
+  /* Custom cursors */
+  --cursor-normal: url("/website/assets/cursors/green_normal.png");
+  --cursor-link: url("/website/assets/cursors/green_link.png");
+  --cursor-push: url("/website/assets/cursors/green_push.png");
 }
 
 [data-selected-theme="pink"] {
@@ -34,6 +44,11 @@
   --color-heading: var(--color-main);
   --color-title: var(--color-text);
   --theme-image: url("/website/themeSquares/pink.png");
+
+  /* Custom cursors */
+  --cursor-normal: url("/website/assets/cursors/pink_normal.png");
+  --cursor-link: url("/website/assets/cursors/pink_link.png");
+  --cursor-push: url("/website/assets/cursors/pink_push.png");
 }
 
 [data-selected-theme="orange"] {
@@ -45,6 +60,11 @@
   --color-heading: var(--color-main);
   --color-title: white;
   --theme-image: url("/website/themeSquares/orange.png");
+
+  /* Custom cursors */
+  --cursor-normal: url("/website/assets/cursors/orange_normal.png");
+  --cursor-link: url("/website/assets/cursors/orange_link.png");
+  --cursor-push: url("/website/assets/cursors/orange_push.png");
 }
 
 [data-selected-theme="black"] {
@@ -56,6 +76,11 @@
   --color-heading: white;
   --color-title: black;
   --theme-image: url("/website/themeSquares/black.png");
+
+  /* Custom cursors */
+  --cursor-normal: url("/website/assets/cursors/black_normal.png");
+  --cursor-link: url("/website/assets/cursors/black_link.png");
+  --cursor-push: url("/website/assets/cursors/black_push.png");
 }
 
 [data-selected-theme="crimson"] {
@@ -67,6 +92,11 @@
   --color-heading: var(--color-main);
   --color-title: var(--color-text);
   --theme-image: url("/website/themeSquares/crimson.png");
+
+  /* Custom cursors */
+  --cursor-normal: url("/website/assets/cursors/crimson_normal.png");
+  --cursor-link: url("/website/assets/cursors/crimson_link.png");
+  --cursor-push: url("/website/assets/cursors/crimson_push.png");
 }
 
 [data-selected-theme="celeste"] {
@@ -78,6 +108,11 @@
   --color-heading: var(--color-main);
   --color-title: var(--color-text);
   --theme-image: url("/website/themeSquares/celeste.png");
+
+  /* Custom cursors */
+  --cursor-normal: url("/website/assets/cursors/celeste_normal.png");
+  --cursor-link: url("/website/assets/cursors/celeste_link.png");
+  --cursor-push: url("/website/assets/cursors/celeste_push.png");
 }
 
 [data-selected-theme="choco"] {
@@ -89,6 +124,11 @@
   --color-heading: var(--color-main);
   --color-title: black;
   --theme-image: url("/website/themeSquares/choco.png");
+
+  /* Custom cursors */
+  --cursor-normal: url("/website/assets/cursors/choco_normal.png");
+  --cursor-link: url("/website/assets/cursors/choco_link.png");
+  --cursor-push: url("/website/assets/cursors/choco_push.png");
 }
 
 [data-selected-theme="white"] {
@@ -100,6 +140,11 @@
   --color-heading: black;
   --color-title: white;
   --theme-image: url("/website/themeSquares/white.png");
+
+  /* Custom cursors */
+  --cursor-normal: url("/website/assets/cursors/white_normal.png");
+  --cursor-link: url("/website/assets/cursors/white_link.png");
+  --cursor-push: url("/website/assets/cursors/white_push.png");
 }
 
 [data-selected-theme="lily"] {
@@ -111,6 +156,11 @@
   --color-heading: var(--color-main);
   --color-title: black;
   --theme-image: url("/website/themeSquares/lily.png");
+
+  /* Custom cursors */
+  --cursor-normal: url("/website/assets/cursors/lily_normal.png");
+  --cursor-link: url("/website/assets/cursors/lily_link.png");
+  --cursor-push: url("/website/assets/cursors/lily_push.png");
 }
 
 @font-face {
@@ -131,6 +181,8 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+
+    cursor: var(--cursor-normal), auto;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -210,10 +262,14 @@ figcaption{
 button[aria-pressed="true"] {
   background-color: var(--color-heading);
   color: var(--color-title);
+
+  cursor: var(--cursor-normal), auto;
 }
 
 a{
     color: var(--color-text);
+
+    cursor: var(--cursor-link), auto;
 }
 
 button {
@@ -229,4 +285,5 @@ button {
     color: var(--color-text);
     border: 2px solid var(--color-border);
 
+    cursor: var(--cursor-push), auto;
 }
