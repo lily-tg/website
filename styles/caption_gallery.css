@@ -359,6 +359,12 @@
     background-position: 95%;
 }
 
+#d20{
+    background-image: url("/website/assets/tf_content/Crimson_Crystal_OC.png");
+    background-size: cover;
+    background-position: center;
+}
+
 /* Future */
 
 #c0{

@@ -287,3 +287,16 @@ button {
 
     cursor: var(--cursor-push), auto;
 }
+
+.table-data, td, th{
+    padding: 5px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid var(--color-border);
+}
+
+th{
+  background-color: var(--color-heading);
+  color: var(--color-title);
+}
