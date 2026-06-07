@@ -6,24 +6,47 @@
         <link rel="stylesheet" href="/website/styles/scrollbar.css">
 
         <!-- Standard-Favicon -->
-        <link rel="icon" type="image/png" sizes="32x32" href="/website/assets/favicon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/website/assets/favicon_grey.png">
     </head>
     <body>
         <div class="container">
             <br><br>
 
             <div class="content">
-                <h1>Error: Page not found</h1>
+                <h1>Error 404: Page not found</h1>
+                <img class="intro-image" src="/website/assets/404.png">
 
-                <img class="intro-image" src="/website/assets/generic.png">
-
-                <p>If you're reading this, the page couldn't been found. This could be because it was deleted, moved, or just not made yet.</p>
+                <p>If you're reading this, the page you're trying to access doesn't exist. Below are a few reasons why this could be the case.</p>
                 
-                <p><a href="/website/home.html">Return home</a></p>
+                <!-- Causes for 404 -->
+                <div>
+                    <figure>
+                        <img class="mini-picture" src="assets/not_found/bad_url.png">
+                        <figcaption style="text-decoration: none;">The page URL was written incorrectly.</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="mini-picture" src="assets/not_found/page_move_delete.png">
+                        <figcaption style="text-decoration: none;">The page has been moved or deleted.</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="mini-picture" src="assets/not_found/page_no.png">
+                        <figcaption style="text-decoration: none;">The page hasn't been created.</figcaption>
+                    </figure>
+                </div>
             </div>
 
             <br><br>
 
+            <div class="content">
+                <h2>What you can do</h2>
+
+                <figure>
+                    <a href="/website/home.html"><img class="mini-picture" src="/website/assets/house.png"></a>
+                    <a href="/website/home.html"><figcaption class="link">Return home</figcaption></a>
+                </figure>
+            </div>
+
+            <br><br>
 
             <!-- The theme selector -->
             <div class="content">
