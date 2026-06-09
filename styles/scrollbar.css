@@ -64,9 +64,9 @@
 
 [data-selected-theme="lily"] {
   --color-scrollbar-main: #764abf;
-  --color-scrollbar-border: #e7e7ec;
-  --color-scrollbar-inside: #7c5faa;
-  --color-scrollbar-inner-border: #e7e7ec;
+  --color-scrollbar-border: #a181d3;
+  --color-scrollbar-inside: #6039a2;
+  --color-scrollbar-inner-border: #764abf;
 }
 
 /* Scrollbar width and height */

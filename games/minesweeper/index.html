@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minesweeper</title>
+        <link rel="stylesheet" href="/website/styles/style.css">
+        <link rel="stylesheet" href="/website/styles/scrollbar.css">
+        <link rel="stylesheet" href="/website/styles/caption_gallery.css">
+
+        <!-- Standard-Favicon -->
+        <link rel="icon" type="image/png" sizes="32x32" href="/website/assets/favicon.png">
+
+        <!-- Minesweeper specific reference links -->
+        <link rel="stylesheet" href="game.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <br><br>
+
+            <!-- Difficulty selection -->
+            <div class="content" id="start">
+                <h1>Minesweeper</h1>
+                <h2>Select difficulty</h2>
+                <p> Note: This affects the density of the board. All rounds take place on an 8 x 8 grid.</p>
+
+                <!-- EASY -->
+                <figure>
+                    <a href="easy.html"><img class="mini-picture" src="/website/assets/games/minesweeper/easy.png"></a>
+                    <a href="easy.html"><figcaption class="link">Easy (5 mines)</figcaption></a>
+                </figure>
+
+                <!-- STANDARD -->
+                <figure>
+                    <a href="standard.html"><img class="mini-picture" src="/website/assets/games/minesweeper/standard.png"></a>
+                    <a href="standard.html"><figcaption class="link">Standard (10 mines)</figcaption></a>
+                </figure>
+
+                <!-- HARD -->
+                <figure>
+                    <a href="hard.html"><img class="mini-picture" src="/website/assets/games/minesweeper/hard.png"></a>
+                    <a href="hard.html"><figcaption class="link">Hard (15 mines)</figcaption></a>
+                </figure>
+
+                <!-- CRAZY -->
+                <figure>
+                    <a href="crazy.html"><img class="mini-picture" src="/website/assets/games/minesweeper/crazy.png"></a>
+                    <a href="crazy.html"><figcaption class="link">Crazy (20 mines)</figcaption></a>
+                </figure>
+
+            </div>
+
+            <br><br>
+
+            <!-- How to play -->
+            <div class="content" id="start">
+                <h2>How to play</h2>
+
+                <p>The objective of the game is to click every tile that doesn't have a mine.</p>
+                <p>When you click on the tiles, you may notice some have numbers in them. These numbers tell you how many tiles around it have mines in them.</p>
+                <p>There is a flag button. Once you click it, you can flag tiles to note there are mines there. Press it again to return to clicking the tiles.</p>
+                <br>
+                
+                <p>To play again, restart the page. Mine generation is random</p>
+                
+            </div>
+
+            <br><br>
+
+            <!-- Credits -->
+            <div class="content" id="start">
+                <h2>Credits</h2>
+
+                <p>Minesweeper tutorial from <a href="https://www.youtube.com/watch?v=AfhfAxKFP-s">Code Minesweeper Game with Javascript</a> by <a href="https://www.youtube.com/@KennyYipCoding">Kenny Yip Coding</a> on YouTube.</p>
+                
+            </div>
+
+            <br><br>
+
+            <!-- The theme selector -->
+            <div class="content">
+                <div>
+                    <h2>Select a theme</h2>
+                </div>
+
+                <!-- Theme options -->
+                <div id="theme-switcher">
+                    <button data-theme="purple" aria-pressed="true">Royal Purple</button>
+                    <button data-theme="green" aria-pressed="false">Elegant Green</button>
+                    <button data-theme="pink" aria-pressed="false">Vibrant Pink</button>
+                    <button data-theme="orange" aria-pressed="false">Juicy Orange</button>
+                    <button data-theme="black" aria-pressed="false">Dark Black</button>
+                    <button data-theme="crimson" aria-pressed="false">Fire Crimson</button>
+                    <button data-theme="celeste" aria-pressed="false">Snowy Celeste</button>
+                    <button data-theme="choco" aria-pressed="false">Crunchy Choco</button>
+                    <button data-theme="white" aria-pressed="false">Blinding White</button>
+                    <button data-theme="lily" aria-pressed="false">Lily's special</button>
+                </div>
+
+                <!-- The theme picture appears here -->
+                <div>
+                    <br>
+                    <img class="theme" src="/website/empty200x200.png">
+                </div>
+
+                <!-- Theme selector credits -->
+                <div>
+                    <p>This theme selector was possible with help from <a href="https://fossheim.io/writing/posts/accessible-theme-picker-html-css-js/">Fossheim's theme selector tutorial</a>.</p>
+                    <p>JavaScript is necessary for the theme switcher to work.</p>
+                </div>
+            </div>
+
+
+            <br><br>
+
+            <div class="content">
+                <!-- More games -->
+                <figure>
+                    <a href="/website/games/index.html"><img class="mini-picture" src="/website/assets/games/games.png"></a>
+                    <a href="/website/games/index.html"><figcaption class="link">More games</figcaption></a>
+                </figure>
+
+                <!-- Return home -->
+                <figure>
+                    <a href="/website/home.html"><img class="mini-picture" src="/website/assets/house.png"></a>
+                    <a href="/website/home.html"><figcaption class="link">Return home</figcaption></a>
+                </figure>
+            </div>
+
+            
+            <br><br>
+        </div>
+        
+    </body>
+    <!-- General page script -->
+    <script src = "/website/script.js"></script>
+</html>

@@ -148,13 +148,13 @@
 }
 
 [data-selected-theme="lily"] {
-  --color-main: #fff5b0;
-  --color-accent: #7c5faa;
-  --color-background: #764abf;
-  --color-border: #e7e7ec;
-  --color-text: black;
+  --color-main: #764abf;
+  --color-accent: #6039a2;
+  --color-background: #4b2d81;
+  --color-border: #a181d3;
+  --color-text: white;
   --color-heading: var(--color-main);
-  --color-title: black;
+  --color-title: white;
   --theme-image: url("/website/themeSquares/lily.png");
 
   /* Custom cursors */
