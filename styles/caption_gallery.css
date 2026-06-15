@@ -365,6 +365,12 @@
     background-position: center;
 }
 
+#c37{
+    background-image: url("/website/assets/tf_content/Office_Woman_TG.png");
+    background-size: cover;
+    background-position: 95%;
+}
+
 /* Future */
 
 #c0{
