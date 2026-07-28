@@ -377,6 +377,12 @@
     background-position: right;
 }
 
+#d21{
+    background-image: url("/website/assets/tf_content/Lilys_TF_event_2026.gif");
+    background-size: cover;
+    background-position: 45%;
+}
+
 /* Future */
 
 #c0{
