@@ -1,0 +1,205 @@
+/* General styles */
+
+
+.mini-picture{
+    max-width: 200px;
+}
+
+.horizontal{
+    background-color: var(--color-main);
+    padding: 1.5rem 2rem;
+    border: 2px solid var(--color-border);
+    width: 225px;
+    
+    border-radius: var(--border-radius);
+    align-items: center;
+    margin: 10px;
+}
+
+/* Days 1- 31 */
+
+#day-1{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-2{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-3{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-3.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-4{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-4.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-5{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-5.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-6{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-6.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-7{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-7.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-8{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-8.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-9{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-9.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-10{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-10.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-11{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-11.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-12{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-12.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-13{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-13.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-14{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-14.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-15{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-15.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-16{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-16.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-17{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-17.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-18{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-18.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-19{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-19.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-20{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-20.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-21{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-21.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-22{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-22.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-23{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-23.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-24{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-24.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-25{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-25.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-26{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-26.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-27{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-27.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-28{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-28.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-29{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-29.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-30{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-30.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#day-31{
+    background-image: url("/website/assets/tf_content/Octransfur2026/Day-31.png");
+    background-size: cover;
+    background-position: center;
+}

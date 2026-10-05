@@ -1,0 +1,91 @@
+:root,
+[data-selected-theme="purple"] {
+  --color-scrollbar-main: #8929bf;
+  --color-scrollbar-border: #6d2098;
+  --color-scrollbar-inside: #943ec5;
+  --color-scrollbar-inner-border: #521872;
+}
+
+[data-selected-theme="green"] {
+  --color-scrollbar-main: #2bd011;
+  --color-scrollbar-border: #22a60d;
+  --color-scrollbar-inside: #55d940;
+  --color-scrollbar-inner-border: #26bb0f;
+}
+
+[data-selected-theme="pink"] {
+  --color-scrollbar-main: #FD63C3;
+  --color-scrollbar-border: #AD026D;
+  --color-scrollbar-inside: #FE88D2;
+  --color-scrollbar-inner-border: #F20298 ;
+}
+
+[data-selected-theme="orange"] {
+  --color-scrollbar-main: #eb6521;
+  --color-scrollbar-border: #bf4b15;
+  --color-scrollbar-inside: #d3571f;
+  --color-scrollbar-inner-border: #eb6521;
+}
+
+[data-selected-theme="black"] {
+  --color-scrollbar-main:  black;
+  --color-scrollbar-border: #3B3A35;
+  --color-scrollbar-inside: #565656;
+  --color-scrollbar-inner-border: black;
+}
+
+[data-selected-theme="crimson"] {
+  --color-scrollbar-main: #EA0C0C;
+  --color-scrollbar-border: #9E0808;
+  --color-scrollbar-inside: #F42929;
+  --color-scrollbar-inner-border: #780606;
+}
+
+[data-selected-theme="celeste"] {
+  --color-scrollbar-main: #8c8cb7;
+  --color-scrollbar-border: #11114e;
+  --color-scrollbar-inside: #5e5e9a;
+  --color-scrollbar-inner-border: #161664;
+}
+
+[data-selected-theme="choco"] {
+  --color-scrollbar-main: #541919;
+  --color-scrollbar-border: #7a4c4c;
+  --color-scrollbar-inside: #410000;
+  --color-scrollbar-inner-border: #b39999;
+}
+
+[data-selected-theme="white"] {
+  --color-scrollbar-main: #dddddd;
+  --color-scrollbar-border: #bbbbbb;
+  --color-scrollbar-inside: #dddddd;
+  --color-scrollbar-inner-border: #999999;
+}
+
+[data-selected-theme="lily"] {
+  --color-scrollbar-main: #7b24ab;
+  --color-scrollbar-border: #521872;
+  --color-scrollbar-inside: #6d2098;
+  --color-scrollbar-inner-border: #44145f;
+}
+
+/* Scrollbar width and height */
+::-webkit-scrollbar{
+    width: 20px;
+    height: 20px;
+}
+
+/* This is the part that indicates total lenght of the page. */
+::-webkit-scrollbar-track{
+    background: var(--color-scrollbar-inside);
+    border: .25em solid var(--color-scrollbar-inner-border);
+    border-radius: var(--border-radius);
+    margin-block: .5em;
+}
+
+/* This is the part that tells you in which part of the page you're in. */
+::-webkit-scrollbar-thumb{
+    background: var(--color-scrollbar-main);
+    border: .25em solid var(--color-scrollbar-border);
+    border-radius: var(--border-radius);
+}
