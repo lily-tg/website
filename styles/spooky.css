@@ -14,9 +14,9 @@
   --theme-image: url("/website/themeSquares/purpleSpooky.png");
 
   /* Custom cursors */
-  --cursor-normal: url("/website/assets/cursors/purple_normal.png");
-  --cursor-link: url("/website/assets/cursors/purple_link.png");
-  --cursor-push: url("/website/assets/cursors/purple_push.png");
+  --cursor-normal: url("/website/assets/cursors/purple_normal_s.png");
+  --cursor-link: url("/website/assets/cursors/purple_link_s.png");
+  --cursor-push: url("/website/assets/cursors/purple_push_s.png");
 }
 
 [data-selected-theme="green"] {
@@ -30,9 +30,9 @@
   --theme-image: url("/website/themeSquares/greenSpooky.png");
 
   /* Custom cursors */
-  --cursor-normal: url("/website/assets/cursors/green_normal.png");
-  --cursor-link: url("/website/assets/cursors/green_link.png");
-  --cursor-push: url("/website/assets/cursors/green_push.png");
+  --cursor-normal: url("/website/assets/cursors/green_normal_s.png");
+  --cursor-link: url("/website/assets/cursors/green_link_s.png");
+  --cursor-push: url("/website/assets/cursors/green_push_s.png");
 }
 
 [data-selected-theme="pink"] {
@@ -46,9 +46,9 @@
   --theme-image: url("/website/themeSquares/pinkSpooky.png");
 
   /* Custom cursors */
-  --cursor-normal: url("/website/assets/cursors/pink_normal.png");
-  --cursor-link: url("/website/assets/cursors/pink_link.png");
-  --cursor-push: url("/website/assets/cursors/pink_push.png");
+  --cursor-normal: url("/website/assets/cursors/pink_normal_s.png");
+  --cursor-link: url("/website/assets/cursors/pink_link_s.png");
+  --cursor-push: url("/website/assets/cursors/pink_push_s.png");
 }
 
 [data-selected-theme="orange"] {
@@ -62,9 +62,9 @@
   --theme-image: url("/website/themeSquares/orangeSpooky.png");
 
   /* Custom cursors */
-  --cursor-normal: url("/website/assets/cursors/orange_normal.png");
-  --cursor-link: url("/website/assets/cursors/orange_link.png");
-  --cursor-push: url("/website/assets/cursors/orange_push.png");
+  --cursor-normal: url("/website/assets/cursors/orange_normal_s.png");
+  --cursor-link: url("/website/assets/cursors/orange_link_s.png");
+  --cursor-push: url("/website/assets/cursors/orange_push_s.png");
 }
 
 [data-selected-theme="black"] {
@@ -78,9 +78,9 @@
   --theme-image: url("/website/themeSquares/blackSpooky.png");
 
   /* Custom cursors */
-  --cursor-normal: url("/website/assets/cursors/black_normal.png");
-  --cursor-link: url("/website/assets/cursors/black_link.png");
-  --cursor-push: url("/website/assets/cursors/black_push.png");
+  --cursor-normal: url("/website/assets/cursors/black_normal_s.png");
+  --cursor-link: url("/website/assets/cursors/black_link_s.png");
+  --cursor-push: url("/website/assets/cursors/black_push_s.png");
 }
 
 [data-selected-theme="crimson"] {
@@ -94,9 +94,9 @@
   --theme-image: url("/website/themeSquares/crimsonSpooky.png");
 
   /* Custom cursors */
-  --cursor-normal: url("/website/assets/cursors/crimson_normal.png");
-  --cursor-link: url("/website/assets/cursors/crimson_link.png");
-  --cursor-push: url("/website/assets/cursors/crimson_push.png");
+  --cursor-normal: url("/website/assets/cursors/crimson_normal_s.png");
+  --cursor-link: url("/website/assets/cursors/crimson_link_s.png");
+  --cursor-push: url("/website/assets/cursors/crimson_push_s.png");
 }
 
 [data-selected-theme="celeste"] {
@@ -110,9 +110,9 @@
   --theme-image: url("/website/themeSquares/celesteSpooky.png");
 
   /* Custom cursors */
-  --cursor-normal: url("/website/assets/cursors/celeste_normal.png");
-  --cursor-link: url("/website/assets/cursors/celeste_link.png");
-  --cursor-push: url("/website/assets/cursors/celeste_push.png");
+  --cursor-normal: url("/website/assets/cursors/celeste_normal_s.png");
+  --cursor-link: url("/website/assets/cursors/celeste_link_s.png");
+  --cursor-push: url("/website/assets/cursors/celeste_push_s.png");
 }
 
 [data-selected-theme="choco"] {
@@ -126,9 +126,9 @@
   --theme-image: url("/website/themeSquares/chocoSpooky.png");
 
   /* Custom cursors */
-  --cursor-normal: url("/website/assets/cursors/choco_normal.png");
-  --cursor-link: url("/website/assets/cursors/choco_link.png");
-  --cursor-push: url("/website/assets/cursors/choco_push.png");
+  --cursor-normal: url("/website/assets/cursors/choco_normal_s.png");
+  --cursor-link: url("/website/assets/cursors/choco_link_s.png");
+  --cursor-push: url("/website/assets/cursors/choco_push_s.png");
 }
 
 [data-selected-theme="white"] {
@@ -142,9 +142,9 @@
   --theme-image: url("/website/themeSquares/whiteSpooky.png");
 
   /* Custom cursors */
-  --cursor-normal: url("/website/assets/cursors/white_normal.png");
-  --cursor-link: url("/website/assets/cursors/white_link.png");
-  --cursor-push: url("/website/assets/cursors/white_push.png");
+  --cursor-normal: url("/website/assets/cursors/white_normal_s.png");
+  --cursor-link: url("/website/assets/cursors/white_link_s.png");
+  --cursor-push: url("/website/assets/cursors/white_push_s.png");
 }
 
 [data-selected-theme="lily"] {
@@ -158,9 +158,9 @@
   --theme-image: url("/website/themeSquares/lilySpooky.png");
 
   /* Custom cursors */
-  --cursor-normal: url("/website/assets/cursors/lily_normal.png");
-  --cursor-link: url("/website/assets/cursors/lily_link.png");
-  --cursor-push: url("/website/assets/cursors/lily_push.png");
+  --cursor-normal: url("/website/assets/cursors/lily_normal_s.png");
+  --cursor-link: url("/website/assets/cursors/lily_link_s.png");
+  --cursor-push: url("/website/assets/cursors/lily_push_s.png");
 }
 
 @font-face {
@@ -173,10 +173,35 @@
     src: url("/website/Architect4.woff2");
 }
 
+/* Libron font */
+@font-face {
+    font-family: "Libron";
+    src: url("/website/assets/fonts/Libron-Regular.woff2");
+}
+
+@font-face {
+    font-family: "Libron";
+    src: url("/website/assets/fonts/Libron-Bold.woff2");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Libron";
+    src: url("/website/assets/fonts/Libron-Italic.woff2");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Libron";
+    src: url("/website/assets/fonts/Libron-BoldItalic.woff2");
+    font-style: italic;
+}
+
+
 body{
     background-color: var(--color-background);
     color: var(--color-text);
-    font-family: "Architect 4";
+    font-family: "Libron";
     display: flex;
     align-items: center;
     justify-content: center;
@@ -273,7 +298,7 @@ a{
 }
 
 button {
-    font-family: "Architect 4";
+    font-family: "Libron";
     margin: 3px;
     border: none;
     background: transparent;

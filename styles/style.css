@@ -173,6 +173,31 @@
     src: url("/website/Architect4.woff2");
 }
 
+/* Libron font */
+@font-face {
+    font-family: "Libron";
+    src: url("/website/assets/fonts/Libron-Regular.woff2");
+}
+
+@font-face {
+    font-family: "Libron";
+    src: url("/website/assets/fonts/Libron-Bold.woff2");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Libron";
+    src: url("/website/assets/fonts/Libron-Italic.woff2");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Libron";
+    src: url("/website/assets/fonts/Libron-BoldItalic.woff2");
+    font-style: italic;
+}
+
+
 body{
     background-color: var(--color-background);
     color: var(--color-text);
